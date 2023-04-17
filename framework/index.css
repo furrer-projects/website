@@ -1,0 +1,43 @@
+.k-icon{
+	display: inline-block;
+	vertical-align: middle;
+	height: 1em;
+	width: 1em;
+}
+.k-social{
+	background-image: url('images/social-media.png');
+}
+.k-social[net="youtube"]{
+	background-position: 0 -1px;
+    background-size: 68px;
+}
+.k-social[net="facebook"]{
+	background-position: -25px -17px;
+    background-size: 68px;
+}
+.k-social[net="instagram"]{
+	background-position: -25px 0px;
+    background-size: 68px;
+}
+.k-social[net="pinterest"]{
+	background-position: -50px -17px;
+    background-size: 68px;
+}
+.k-social[net="twitter"]{
+	background-position: -26px -37px;
+    background-size: 68px;
+}
+.k-social[net="telegram"]{
+	background-position: 0px -37px;
+    background-size: 68px;
+}
+.k-social[net="discord"]{
+	background-position: -46px 1px;
+    background-size: 62px;
+    vertical-align: top;
+}
+.k-social[net="reddit"]{
+	background-position: 42px 16px;
+    background-size: 68px;
+    vertical-align: top;
+}
